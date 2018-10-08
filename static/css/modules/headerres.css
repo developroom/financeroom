@@ -1,0 +1,37 @@
+/* styles for header responsive start */
+@media all and (max-width:928px){
+    header.mainHeader p.headerParagraf{
+        font-size: 3rem;
+    }
+}
+
+@media all and (max-width:772px){
+    header.mainHeader .headerContact p.headerContactParagraf{
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width:688px){
+    header.mainHeader h1.headerLogoHeading{
+        width: 100%;
+    }
+
+    header.mainHeader .headerContact{
+        width: 100%;
+    }
+
+    header.mainHeader .headerContact p.headerContactParagraf{
+        font-size: 3rem;
+    }
+
+    header.mainHeader p.headerParagraf{
+        width: 100%;
+    }
+}
+
+@media all and (max-width:418px){
+    header.mainHeader .headerContact p.headerContactParagraf{
+        font-size: 2.5rem;
+    }
+}
+/* styles for header responsive stop */
