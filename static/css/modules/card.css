@@ -1,0 +1,43 @@
+/* card section start */
+section.cardSection{
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.cardSection h2.cardHeading{
+    padding: 5rem;
+    font-size: 4rem;
+
+}
+
+section.cardSection .cardHolder{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.cardSection .cardHolder .cardHolderInfo{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.cardSection .cardHolder .cardHolderInfo img.cardHolderInfoImage{
+    padding: 6rem;
+    border-radius: 50%;
+    border: solid 1px #000000;
+}
+
+section.cardSection .cardHolder .cardHolderInfo p.cardHolderInfoParagraf{
+    text-align: center;
+    padding: 3rem;
+    font-size: 2.5rem;
+}
+/* card section stop */
