@@ -1,0 +1,19 @@
+/* style section aboutus start */
+section.aboutusSection{
+    width: 100%;
+    padding: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.aboutusSection h2.aboutusHeading{
+    font-size: 4rem;
+    padding: 10rem;
+}
+
+section.aboutusSection p.aboutusParagraf{
+    font-size: 3rem;
+}
+/* style section aboutus stop */
