@@ -12,5 +12,13 @@
     section.offerSection .offerCardHolder .offerCardHolderInner h3.offerCardHolderInnerHeading{
         font-size: 2rem;
     }
+    section.offerSection .offerCardHolder .offerCardHolderInner p.offerCardHolderInnerParagraf{
+        font-size: 2rem;
+        padding: 0;
+    }
+    section.offerSection{
+        padding: 0;
+    }
 }
+
 /* section offer reponsive stop */

@@ -1,0 +1,24 @@
+/* card section responsive start */
+@media all and (max-width:962px){
+    section.cardSection .cardHolder{
+        flex-wrap: wrap;
+    }
+    section.cardSection .cardHolder .cardHolderInfo{
+        width: 50%;
+    }
+}
+@media all and (max-width:780px){
+    section.cardSection .cardHolder .cardHolderInfo{
+        width: 100%;
+    }
+}
+@media all and (max-width:492px){
+    section.cardSection h2.cardHeading{
+        padding: 5rem;
+        font-size: 3rem;
+    }
+    section.cardSection{
+        padding: 0;
+    }
+}
+/* card section responsive stop */

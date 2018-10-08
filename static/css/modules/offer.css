@@ -6,6 +6,8 @@ section.offerSection{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    z-index: 100;
 }
 
 section.offerSection h2.offerHeading{

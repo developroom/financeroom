@@ -16,6 +16,8 @@ header.mainHeader h1.headerLogoHeading{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 100;
 }
 
 header.mainHeader h1.headerLogoHeading img.headerLogoImage{

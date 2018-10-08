@@ -6,12 +6,13 @@ section.cardSection{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    z-index: 100;
 }
 
 section.cardSection h2.cardHeading{
     padding: 5rem;
     font-size: 4rem;
-
 }
 
 section.cardSection .cardHolder{
