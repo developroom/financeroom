@@ -10,7 +10,7 @@ ul{
 }
 
 a{
-    text-transform: none;
+    text-decoration: none;
     color: #000000;
 }
 /* reset default size of browser stop */
