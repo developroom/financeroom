@@ -1,0 +1,12 @@
+/* style nav responsive start */
+@media all and (max-width:688px){
+    nav.mainNav{
+        height: 100vh;
+    }
+
+    nav.mainNav ul.navList{
+        flex-direction: column;
+    }
+}
+
+/* style nav responsive stop */
