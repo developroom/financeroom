@@ -1,0 +1,22 @@
+{
+  "name": "financeroom",
+  "version": "1.0.0",
+  "description": "full page of financeroom",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developroom/financeroom.git"
+  },
+  "keywords": [
+    "financeroom"
+  ],
+  "author": "developroom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developroom/financeroom/issues"
+  },
+  "homepage": "https://github.com/developroom/financeroom#readme"
+}
