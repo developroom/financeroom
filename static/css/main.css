@@ -1,4 +1,4 @@
-@import 'modules/reset.css';
-@import 'modules/font.css';
-@import 'modules/header.css';
-@import 'modules/nav.css';
+@import './modules/reset.css';
+@import './modules/font.css';
+@import './modules/header.css';
+@import './modules/nav.css';
