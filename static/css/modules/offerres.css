@@ -1,0 +1,16 @@
+/* section offer responsive start */
+@media all and (max-width:968px){
+    section.offerSection .offerCardHolder .offerCardHolderInner{
+        width: 100%;
+    }
+}
+@media all and (max-width:580px){
+    section.offerSection h2.offerHeading{
+        font-size: 3rem;
+        padding: 3rem;
+    }
+    section.offerSection .offerCardHolder .offerCardHolderInner h3.offerCardHolderInnerHeading{
+        font-size: 2rem;
+    }
+}
+/* section offer reponsive stop */
