@@ -15,5 +15,6 @@ section.aboutusSection h2.aboutusHeading{
 
 section.aboutusSection p.aboutusParagraf{
     font-size: 3rem;
+    text-align: center;
 }
 /* style section aboutus stop */

@@ -1,0 +1,27 @@
+/* style section aboutus start */
+@media all and (max-width:1030px){
+    section.aboutusSection{
+        padding: 10rem;
+    }
+}
+
+@media all and (max-width:674px){
+    section.aboutusSection{
+        padding: 5rem;
+    }
+}
+
+@media all and (max-width:574px){
+    section.aboutusSection{
+        padding: 0rem;
+    }
+    section.aboutusSection h2.aboutusHeading{
+        font-size: 3rem;
+        padding: 5rem;
+    }
+    section.aboutusSection p.aboutusParagraf{
+        font-size: 2rem;
+    }
+}
+
+/* style section aboutus stop */
