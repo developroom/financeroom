@@ -22,7 +22,9 @@ h6{
 
 form,
 input,
-textarea{
+textarea,
+form > p,
+::placeholder{
     font-family: 'Krub', sans-serif;
 }
 /* setting font for a project stop */

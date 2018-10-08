@@ -1,0 +1,71 @@
+/* form section start */
+section.formSection{
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.formSection form.form{
+    width: 40%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+section.formSection form.form p.formParagraf{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+section.formSection form.form input.formInput{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+section.formSection form.form textarea.formTextarea{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+section.formSection form.form .formInner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 1rem; */
+    margin: 1rem;
+}
+
+section.formSection form.form .formInner .formInnerHolder{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.formSection form.form .formInner .formInnerHolder input.formInnerHolderCheckbox{
+    transform: scale(2);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+section.formSection form.form .formInner .formInnerHolder p.formInnerHolderParagraf{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+section.formSection form.form .formInner input.formInnerSend{
+    padding: 1rem;
+    background-color: #ffffff;
+    outline: none;
+    border: solid 1px #000000;
+    transition: all .5s ease-in-out;
+}
+
+section.formSection form.form .formInner input.formInnerSend:hover{
+    box-shadow: inset 0px 0px 5px #000000;
+}
+/* form section stop */
