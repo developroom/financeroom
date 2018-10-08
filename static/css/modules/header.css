@@ -1,0 +1,55 @@
+/* styles for header start */
+header.mainHeader{
+    height: 100vh;
+    background-image: url('../../img/');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+header.mainHeader h1.headerLogoHeading{
+    width: 60%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.mainHeader h1.headerLogoHeading img.headerLogoImage{
+    height: 100%;
+}
+
+header.mainHeader .headerContact{
+    width: 50%;
+    height: 15%;
+    position: relative;
+}
+
+header.mainHeader .headerContact img.headerContactImage{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    height: 100%;
+    width: 60%;
+}
+
+header.mainHeader .headerContact p.headerContactParagraf{
+    position: absolute;
+    top: calc(50% - 3rem);
+    left: 60%;
+    font-size: 3rem;
+}
+
+header.mainHeader p.headerParagraf{
+    width: 60%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    text-align: center;
+}
+/* styles for header stop */

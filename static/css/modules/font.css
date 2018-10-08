@@ -1,3 +1,4 @@
+/* setting font for a project start */
 html{
     font-size: 10px;
 }
@@ -24,3 +25,4 @@ input,
 textarea{
     font-family: 'Krub', sans-serif;
 }
+/* setting font for a project stop */

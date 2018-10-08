@@ -1,3 +1,4 @@
+/* reset default size of browser start */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -12,3 +13,4 @@ a{
     text-transform: none;
     color: #000000;
 }
+/* reset default size of browser stop */
