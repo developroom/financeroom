@@ -1,0 +1,27 @@
+/* form section responsive start */
+@media all and (max-width:1410px){
+    section.formSection form.form{
+        width: 60%;
+    }
+}
+@media all and (max-width:924px){
+    section.formSection form.form{
+        width: 70%;
+    }
+}
+@media all and (max-width:766px){
+    section.formSection form.form{
+        width: 80%;
+    }
+}
+@media all and (max-width:638px){
+    section.formSection form.form{
+        width: 90%;
+    }
+}
+@media all and (max-width:562px){
+    section.formSection form.form{
+        width: 100%;
+    }
+}
+/* form section responsive stop */
