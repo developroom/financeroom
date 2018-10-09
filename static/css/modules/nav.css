@@ -85,7 +85,7 @@ nav.mainNav button.navHamburgerButton{
     border: none;
     outline: none;
     transition: all .5s ease-in-out;
-    z-index: 300;
+    z-index: 3000;
 }
 
 nav.mainNav button.navHamburgerButton .navHamburgerButtonBarTop{
