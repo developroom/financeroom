@@ -8,6 +8,8 @@ section.aboutusSection{
     align-items: center;
     position: relative;
     z-index: 100;
+    background-color: #e5e5e5;
+    box-shadow: inset 0px 0px 200px #000000;
 }
 
 section.aboutusSection h2.aboutusHeading{

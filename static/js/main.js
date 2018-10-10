@@ -24,6 +24,8 @@ const offerOperation =()=>{
         sectionToggle[i].addEventListener('click',()=>{
             headingToggle[i].classList.toggle('disable');
             paragrafToggle[i].classList.toggle('active');
+            sectionToggle[i].classList.toggle('disable');
+            sectionToggle[i].classList.toggle('off');
         });
     }
 };

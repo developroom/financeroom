@@ -9,6 +9,7 @@ nav.mainNav{
     align-items: center;
     justify-content: space-between;
     transition: all .5s ease-in-out;
+    background-color: #e5e5e5;
 }
 
 nav.mainNav ul.navList{

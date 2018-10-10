@@ -1,10 +1,10 @@
 /* setting font for a project start */
-html{
+html {
     font-size: 10px;
 }
 
-p{
-    font-family: 'Slabo 27px', serif;
+p {
+    font-family: 'Ranga', cursive;
 }
 
 h1,
@@ -12,19 +12,20 @@ h2,
 h3,
 h4,
 h5,
-h6{
-    font-family: 'Poppins', sans-serif;
+h6 {
+    font-family: 'Oswald', sans-serif;
 }
 
-.quotes{
-    font-family: 'Oswald', sans-serif;
+.quotes {
+    font-family: 'Dancing Script', cursive;
 }
 
 form,
 input,
 textarea,
-form > p,
-::placeholder{
-    font-family: 'Krub', sans-serif;
+form>p,
+::placeholder {
+    font-family: 'Dancing Script', cursive;
 }
+
 /* setting font for a project stop */

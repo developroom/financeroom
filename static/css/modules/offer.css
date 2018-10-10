@@ -8,6 +8,8 @@ section.offerSection{
     align-items: center;
     position: relative;
     z-index: 100;
+    background-color: #e5e5e5;
+    box-shadow: inset 0px 0px 200px #9e9c76;
 }
 
 section.offerSection h2.offerHeading{
@@ -19,15 +21,46 @@ section.offerSection .offerCardHolder{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    color: #af1a00;
 }
 
 section.offerSection .offerCardHolder .offerCardHolderInner{
-    width: 50%;
+    width: 48%;
     justify-content: space-around;
     align-items: center;
     padding: 10rem;
     cursor: pointer;
     position: relative;
+    margin: 1rem;
+}
+
+section.offerSection .offerCardHolder .offerCardHolderInner.disable.off{
+    background-image: none;
+}
+
+
+section.offerSection .offerCardHolder .offerCardHolderInner.leasing{
+    background-image: url(../../img/pexels-photo-1267324.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+section.offerSection .offerCardHolder .offerCardHolderInner.factoring{
+    background-image: url(../../img/office-pen-calculator-computation-163032.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+section.offerSection .offerCardHolder .offerCardHolderInner.credit{
+    background-image: url(../../img/pexels-photo-256621.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+section.offerSection .offerCardHolder .offerCardHolderInner.investing{
+    background-image: url(../../img/pexels-photo-327531.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 section.offerSection .offerCardHolder .offerCardHolderInner h3.offerCardHolderInnerHeading{
