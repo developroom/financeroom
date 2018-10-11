@@ -9,6 +9,12 @@
     header.mainHeader .headerContact p.headerContactParagraf{
         font-size: 2rem;
     }
+    header.mainHeader{
+        background-image: url('../../img/pexels-photo-210600\(1\).jpeg');
+    }
+    header.mainHeader h1.headerLogoHeading{
+        margin-top: 0;
+    }
 }
 
 @media all and (max-width:688px){
