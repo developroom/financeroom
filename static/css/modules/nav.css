@@ -9,7 +9,7 @@ nav.mainNav{
     align-items: center;
     justify-content: space-between;
     transition: all .5s ease-in-out;
-    z-index: 3000;
+    z-index: 30;
 }
 
 nav.mainNav ul.navList{
