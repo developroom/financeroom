@@ -3,6 +3,9 @@
     section.offerSection .offerCardHolder .offerCardHolderInner{
         width: 100%;
     }
+    section.offerSection .offerCardHolder .offerCardHolderInner p.offerCardHolderInnerParagraf.active{
+        overflow: auto;
+    }
 }
 @media all and (max-width:580px){
     section.offerSection h2.offerHeading{
@@ -13,7 +16,7 @@
         font-size: 2rem;
     }
     section.offerSection .offerCardHolder .offerCardHolderInner p.offerCardHolderInnerParagraf{
-        font-size: 2rem;
+        font-size: 1rem;
         padding: 0;
     }
     section.offerSection{

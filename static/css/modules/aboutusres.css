@@ -13,7 +13,7 @@
 
 @media all and (max-width:574px){
     section.aboutusSection{
-        padding: 0rem;
+        padding: 0 0 10rem 0;
     }
     section.aboutusSection h2.aboutusHeading{
         font-size: 3rem;

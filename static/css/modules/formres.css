@@ -13,6 +13,10 @@
     section.formSection form.form{
         width: 80%;
     }
+    section.formSection{
+        padding: 0;
+        margin: 0;
+    }
 }
 @media all and (max-width:638px){
     section.formSection form.form{
@@ -22,6 +26,9 @@
 @media all and (max-width:562px){
     section.formSection form.form{
         width: 100%;
+    }
+    section.formSection form.form .formInner .formInnerHolder p.formInnerHolderParagraf{
+        font-size: 1rem;
     }
 }
 /* form section responsive stop */
