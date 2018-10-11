@@ -9,7 +9,7 @@ nav.mainNav{
     align-items: center;
     justify-content: space-between;
     transition: all .5s ease-in-out;
-    background-color: #e5e5e5;
+    z-index: 3000;
 }
 
 nav.mainNav ul.navList{
@@ -20,6 +20,7 @@ nav.mainNav ul.navList{
     justify-content: space-around;
     transform: translateY(-100%);
     transition: all .5s ease-in-out;
+    background-color: #e5e5e5;
 }
 
 nav.mainNav ul.navList.active{
@@ -95,7 +96,8 @@ nav.mainNav button.navHamburgerButton .navHamburgerButtonBarTop{
     left: 0;
     width: 100%;
     height: .4rem;
-    background-color: #000000;
+    background-color: #e5e5e5;
+
 }
 
 nav.mainNav button.navHamburgerButton .navHamburgerButtonBarMiddle{
@@ -105,7 +107,7 @@ nav.mainNav button.navHamburgerButton .navHamburgerButtonBarMiddle{
     width: 100%;
     height: .4rem;
     background-color: #000000;
-    transition: all .5s ease-in-out;
+    background-color: #e5e5e5;
 }
 
 nav.mainNav button.navHamburgerButton .navHamburgerButtonBarBottom{
@@ -114,7 +116,7 @@ nav.mainNav button.navHamburgerButton .navHamburgerButtonBarBottom{
     left: 0;
     width: 100%;
     height: .4rem;
-    background-color: #000000;
+    background-color: #e5e5e5;
 }
 
 nav.mainNav button.navHamburgerButton .navHamburgerButtonBarMiddle.active{
