@@ -33,6 +33,7 @@ section.offerSection .offerCardHolder .offerCardHolderInner{
     cursor: pointer;
     position: relative;
     margin: 1rem;
+    transition: all .5s ease-in-out;
 }
 
 section.offerSection .offerCardHolder .offerCardHolderInner.disable.off{
@@ -41,25 +42,25 @@ section.offerSection .offerCardHolder .offerCardHolderInner.disable.off{
 
 
 section.offerSection .offerCardHolder .offerCardHolderInner.leasing{
-    background-image: url(../../img/pexels-photo-1267324.jpeg);
+    background-image: url(../../img/Leasing.png);
     background-size: cover;
     background-position: center;
 }
 
 section.offerSection .offerCardHolder .offerCardHolderInner.factoring{
-    background-image: url(../../img/office-pen-calculator-computation-163032.jpeg);
+    background-image: url(../../img/Faktoring.png);
     background-size: cover;
     background-position: center;
 }
 
 section.offerSection .offerCardHolder .offerCardHolderInner.credit{
-    background-image: url(../../img/pexels-photo-256621.jpeg);
+    background-image: url(../../img/Profesjonalne_doradztwo_kredytowe.png);
     background-size: cover;
     background-position: center;
 }
 
 section.offerSection .offerCardHolder .offerCardHolderInner.investing{
-    background-image: url(../../img/pexels-photo-327531.jpeg);
+    background-image: url(../../img/Inwestycje.png);
     background-size: cover;
     background-position: center;
 }

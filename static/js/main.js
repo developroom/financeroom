@@ -20,11 +20,11 @@ const menuOperation =()=>{
 //function that operate toggle section
 const offerOperation =()=>{
     let sectionToggle = document.querySelectorAll('section.offerSection .offerCardHolder .offerCardHolderInner');
-    let headingToggle = document.querySelectorAll('section.offerSection .offerCardHolder .offerCardHolderInner h3.offerCardHolderInnerHeading');
+    //let headingToggle = document.querySelectorAll('section.offerSection .offerCardHolder .offerCardHolderInner');
     let paragrafToggle = document.querySelectorAll('section.offerSection .offerCardHolder .offerCardHolderInner p.offerCardHolderInnerParagraf');
     for(let i = 0;i< sectionToggle.length;i++){
         sectionToggle[i].addEventListener('click',()=>{
-            headingToggle[i].classList.toggle('disable');
+          //  headingToggle[i].classList.toggle('disable');
             paragrafToggle[i].classList.toggle('active');
             sectionToggle[i].classList.toggle('disable');
             sectionToggle[i].classList.toggle('off');
