@@ -4,7 +4,7 @@
         width: 100%;
     }
     section.offerSection .offerCardHolder .offerCardHolderInner p.offerCardHolderInnerParagraf.active{
-        overflow: auto;
+        font-size: 1.5rem;
     }
 }
 @media all and (max-width:580px){

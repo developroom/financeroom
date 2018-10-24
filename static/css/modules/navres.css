@@ -3,6 +3,12 @@
     nav.mainNav{
         height: 100vh;
     }
+    nav.mainNav ul.navList li.navListItem{
+      width: 40%;
+    }
+    nav.mainNav ul.navList li.navListItem a.navListItemLink{
+      width: 100%;
+    }
 
     nav.mainNav ul.navList{
         flex-direction: column;
