@@ -6,12 +6,14 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 //function that operate menu
 const menuOperation =()=>{
-    let buttonMenu = document.querySelector('nav.mainNav button.navHamburgerButton')
+    let buttonMenu = document.querySelector('button.navHamburgerButton')
     buttonMenu.addEventListener('click',()=>{
-        let barAnimation = document.querySelector('nav.mainNav button.navHamburgerButton .navHamburgerButtonBarMiddle');
+        let barAnimation = document.querySelector('button.navHamburgerButton .navHamburgerButtonBarMiddle');
         let navAnimation = document.querySelector('nav.mainNav ul.navList');
+        let navToggle = document.querySelector('nav.mainNav');
         barAnimation.classList.toggle('active');
         navAnimation.classList.toggle('active');
+        navToggle.classList.toggle('active');
     });
 };
 

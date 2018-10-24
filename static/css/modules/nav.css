@@ -12,6 +12,10 @@ nav.mainNav{
     z-index: 30;
 }
 
+nav.mainNav.active{
+  z-index: 10000;
+}
+
 nav.mainNav ul.navList{
     width: 80%;
     height: 100%;
@@ -25,7 +29,7 @@ nav.mainNav ul.navList{
 
 nav.mainNav ul.navList.active{
     transform: translateY(0%);
-    z-index: 200;
+    z-index: 100000;
 }
 
 nav.mainNav ul.navList li.navListItem{
@@ -53,7 +57,7 @@ nav.mainNav ul.navList li.navListItem a.navListItemLink::after{
     width: 0%;
     height: .5rem;
     bottom: 0;
-    left: 0; 
+    left: 0;
     background-color: #000000;
     transition: all .5s ease-in-out;
 }
@@ -65,7 +69,7 @@ nav.mainNav ul.navList li.navListItem a.navListItemLink::before{
     width: 0%;
     height: .5rem;
     bottom: 0;
-    right: 0; 
+    right: 0;
     background-color: #000000;
     transform: rotate(180deg);
     transition: all .5s ease-in-out;
@@ -75,8 +79,7 @@ nav.mainNav ul.navList li.navListItem a.navListItemLink:hover::after,
 nav.mainNav ul.navList li.navListItem a.navListItemLink:hover::before{
     width: 50%;
 }
-
-nav.mainNav button.navHamburgerButton{
+button.navHamburgerButton{
     width: 5rem;
     height: 5rem;
     position: fixed;
@@ -87,10 +90,9 @@ nav.mainNav button.navHamburgerButton{
     border: none;
     outline: none;
     transition: all .5s ease-in-out;
-    z-index: 3000;
+    z-index: 1000000;
 }
-
-nav.mainNav button.navHamburgerButton .navHamburgerButtonBarTop{
+button.navHamburgerButton .navHamburgerButtonBarTop{
     position: absolute;
     top: 10%;
     left: 0;
@@ -100,7 +102,7 @@ nav.mainNav button.navHamburgerButton .navHamburgerButtonBarTop{
 
 }
 
-nav.mainNav button.navHamburgerButton .navHamburgerButtonBarMiddle{
+ button.navHamburgerButton .navHamburgerButtonBarMiddle{
     position: absolute;
     top: 45%;
     left: 0;
@@ -109,8 +111,7 @@ nav.mainNav button.navHamburgerButton .navHamburgerButtonBarMiddle{
     background-color: #000000;
     background-color: #e5e5e5;
 }
-
-nav.mainNav button.navHamburgerButton .navHamburgerButtonBarBottom{
+ button.navHamburgerButton .navHamburgerButtonBarBottom{
     position: absolute;
     bottom: 10%;
     left: 0;
@@ -119,7 +120,7 @@ nav.mainNav button.navHamburgerButton .navHamburgerButtonBarBottom{
     background-color: #e5e5e5;
 }
 
-nav.mainNav button.navHamburgerButton .navHamburgerButtonBarMiddle.active{
+ button.navHamburgerButton .navHamburgerButtonBarMiddle.active{
     transform: rotate(90deg);
 }
 
