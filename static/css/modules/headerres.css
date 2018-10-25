@@ -10,7 +10,8 @@
         font-size: 2rem;
     }
     header.mainHeader{
-        background-image: url('../../img/zdjęcie_mniejsze1.png');
+        /* background-image: url('../../img/zdjęcie_mniejsze1.png'); */
+        background-position: right;
     }
     header.mainHeader h1.headerLogoHeading{
         margin-top: 0;
@@ -20,6 +21,10 @@
 @media all and (max-width:688px){
     header.mainHeader h1.headerLogoHeading{
         width: 100%;
+    }
+    header.mainHeader{
+        /* background-image: url('../../img/zdjęcie_mniejsze2.png'); */
+        background-position: right;
     }
 
     header.mainHeader h1.headerLogoHeading img.headerLogoImage{
