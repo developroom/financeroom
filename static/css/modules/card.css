@@ -38,6 +38,7 @@ section.cardSection .cardHolder .cardHolderInfo img.cardHolderInfoImage{
     border: solid 1px #000000;
     width: 20rem;
     height: 20rem;
+    cursor: pointer;
 }
 
 section.cardSection .cardHolder .cardHolderInfo p.cardHolderInfoParagraf{
