@@ -32,11 +32,11 @@ const offerOperation =()=>{
 };
 
 //function that operate section about facts -> modals
-const factsSection = ()=>{
-  let imgModal = document.querySelectorAll('section.cardSection .cardHolder .cardHolderInfo img.cardHolderInfoImage');
-  for(let i = 0; i<imgModal.length;i++){
-    imgModal[i].addEventListener('click', ()=>{
-
-    });
-  }
-};
+// const factsSection = ()=>{
+//   let imgModal = document.querySelectorAll('section.cardSection .cardHolder .cardHolderInfo img.cardHolderInfoImage');
+//   for(let i = 0; i<imgModal.length;i++){
+//     imgModal[i].addEventListener('click', ()=>{
+//
+//     });
+//   }
+// };
