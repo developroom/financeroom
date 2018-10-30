@@ -20,6 +20,14 @@ const menuOperation =()=>{
         barAnimation.classList.toggle('active');
         navAnimation.classList.toggle('active');
         navToggle.classList.toggle('active');
+        let buttons = document.querySelectorAll('.navListItemLink');
+        for(let i =0; i < buttons.length; i++){
+            buttons[i].addEventListener('click',()=>{
+                barAnimation.classList.toggle('active');
+                navAnimation.classList.toggle('active');
+                navToggle.classList.toggle('active');
+            });
+        }
     });
 };
 

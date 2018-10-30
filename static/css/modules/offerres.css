@@ -18,6 +18,7 @@
     section.offerSection .offerCardHolder .offerCardHolderInner p.offerCardHolderInnerParagraf{
         font-size: 1rem;
         padding: 0;
+        text-shadow: 0;
     }
     section.offerSection{
         padding: 0;

@@ -38,6 +38,7 @@ section.offerSection .offerCardHolder .offerCardHolderInner{
 
 section.offerSection .offerCardHolder .offerCardHolderInner.disable.off{
     background-image: none;
+    height: 100vh;
 }
 
 

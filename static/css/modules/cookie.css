@@ -14,10 +14,17 @@ footer.mainFooter{
 
 footer.mainFooter p.cookieText{
     font-size: 2rem;
+    text-align: center;
 }
 
 footer.mainFooter button.cookieClose{
     width: 100px;
     height: 50px;
     font-weight: bold;
+}
+
+@media all and (max-width:706px){
+    footer.mainFooter{
+        height: 100vh;
+    }
 }
