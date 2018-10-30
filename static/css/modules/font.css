@@ -15,6 +15,9 @@ h5,
 h6 {
     font-family: 'Oswald', sans-serif;
 }
+a{
+    font-family: 'Oswald', sans-serif;
+}
 
 .quotes {
     font-family: 'Dancing Script', cursive;
@@ -25,7 +28,7 @@ input,
 textarea,
 form>p,
 ::placeholder {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* setting font for a project stop */
