@@ -96,6 +96,7 @@ section.offerSection .offerCardHolder .offerCardHolderInner p.offerCardHolderInn
     transition: all .5s ease-in-out;
     top: 0;
     left: 0;
+    color: #000000;
 }
 
 section.offerSection .offerCardHolder .offerCardHolderInner p.offerCardHolderInnerParagraf.active{

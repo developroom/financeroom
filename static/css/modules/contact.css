@@ -8,7 +8,12 @@ section.contactSection{
     position: relative;
     z-index: 100;
     background-color: #e5e5e5;
+    flex-direction: column;
     box-shadow: inset 0px 0px 200px #000000;
+}
+
+section.contactSection h2{
+    font-size: 3rem;
 }
 
 section.contactSection address.contactAdress{
@@ -22,20 +27,23 @@ section.contactSection address.contactAdress{
 
 section.contactSection address.contactAdress .contactAdressInner{
     width: 100%;
-    padding: 1rem;
+    /* padding: 1rem; */
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
 }
 
 section.contactSection address.contactAdress .contactAdressInner p.contactAdressInnerMain{
     font-size: 2rem;
-    padding: 1rem;
+    padding: .5rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 section.contactSection address.contactAdress .contactAdressInner p.contactAdressInnerContent{
     font-size: 2rem;
-    padding: 1rem;
+    padding: .5rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 section.contactSection .contactInner{
@@ -48,8 +56,8 @@ section.contactSection .contactInner{
 }
 
 section.contactSection .contactInner p.contactInnerParagraf{
-    padding: 1rem;
-    margin: 3rem;
+    padding: 0rem;
+    margin: 1rem;
     text-align: center;
     font-size: 3rem;
 }
