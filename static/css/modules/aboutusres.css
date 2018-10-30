@@ -6,6 +6,9 @@
 }
 
 @media all and (max-width:674px){
+    section.offerSection .offerCardHolder .offerCardHolderInner.disable.off{
+        height: 100vh;
+    }
     section.aboutusSection{
         padding: 5rem;
     }
