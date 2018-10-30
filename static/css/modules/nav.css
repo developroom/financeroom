@@ -17,14 +17,14 @@ nav.mainNav.active{
 }
 
 nav.mainNav ul.navList{
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     transform: translateY(-100%);
     transition: all .5s ease-in-out;
-    background-color: #e5e5e5;
+    background-color: rgba(230, 230, 230, 0.62);
 }
 
 nav.mainNav ul.navList.active{

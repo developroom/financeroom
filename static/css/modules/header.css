@@ -10,7 +10,7 @@ header.mainHeader{
     flex-direction: column;
     background-color: #e5e5e5;
     color: #ffffff;
-    text-shadow: 0px 0px 10px #000000;
+    /* text-shadow: 0px 0px 10px #000000; */
 }
 
 header.mainHeader.another{
