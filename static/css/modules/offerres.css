@@ -4,7 +4,7 @@
         width: 100%;
     }
     section.offerSection .offerCardHolder .offerCardHolderInner p.offerCardHolderInnerParagraf.active{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 @media all and (max-width:580px){
@@ -16,7 +16,7 @@
         font-size: 2rem;
     }
     section.offerSection .offerCardHolder .offerCardHolderInner p.offerCardHolderInnerParagraf{
-        font-size: 1rem;
+        font-size: 2rem;
         padding: 0;
         text-shadow: 0;
     }
